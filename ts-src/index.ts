@@ -1,3 +1,5 @@
+// DOM
+
 const bool = (b: boolean) => b;
 
 const myBool = bool(false);

@@ -1,3 +1,4 @@
+// DOM
 const bool = (b) => b;
 const myBool = bool(false);
 const greeter = (person) => {
@@ -12,7 +13,7 @@ const app = document.createElement("div");
 app.setAttribute('id', 'app');
 const p = document.createElement('p');
 p.setAttribute('class', 'woo');
-app === null || app === void 0 ? void 0 : app.appendChild(p);
+app?.appendChild(p);
 p.textContent = 'Hello world!';
 document.body.appendChild(app);
 const test = document.getElementById('app');
