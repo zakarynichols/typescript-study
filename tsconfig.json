@@ -2,6 +2,7 @@
     "compilerOptions": {
       "target": "es2020", /*Specify ECMAScript target version*/
       "rootDir": "ts-src",/*ts source direcotry*/
-      "outDir": "web-app/js" /*where to compile javascript files*/
+      "outDir": "web-app/js", /*where to compile javascript files*/
+      "module": "commonjs"
     }
   }
